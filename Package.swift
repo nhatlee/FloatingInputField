@@ -4,21 +4,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "FloatingLabelTextInputField",
+    name: "FloatingInputField",
     platforms: [.iOS(.v15)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "FloatingLabelTextInputField",
-            targets: ["FloatingLabelTextInputField"]),
+            name: "FloatingInputField",
+            targets: ["FloatingInputField"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "FloatingLabelTextInputField"),
+            name: "FloatingInputField"),
         .testTarget(
-            name: "FloatingLabelTextInputFieldTests",
-            dependencies: ["FloatingLabelTextInputField"]),
+            name: "FloatingInputFieldTests",
+            dependencies: ["FloatingInputField"]),
     ]
 )

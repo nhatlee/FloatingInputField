@@ -1,7 +1,7 @@
 import XCTest
-@testable import FloatingLabelTextInputField
+@testable import FloatingInputField
 
-final class FloatingLabelTextInputFieldTests: XCTestCase {
+final class FloatingInputFieldTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest

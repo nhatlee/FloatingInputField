@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/bb30ea3d-fce3-423f-b5bf-c27a87d9e99d
 
 ```
 // On top of your UI file 
-import FloatingLabelTextInputField
+import FloatingInputField
 
 TextInputField(
  "Email address",
