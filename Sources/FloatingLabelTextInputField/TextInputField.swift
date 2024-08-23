@@ -90,7 +90,7 @@ extension TextInputField {
     fileprivate func validate(_ value: String) {
         if isMandatory {
             isValid = !value.isEmpty
-            validationMessage = isValid ? "" : "This is a mandatory field"
+            validationMessage = isValid ? "" : "Required field *"
         }
         guard isValid else { return }
         guard let validationHandler = validationHandler else { return }
