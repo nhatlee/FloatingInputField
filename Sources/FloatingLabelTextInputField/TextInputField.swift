@@ -1,6 +1,6 @@
 //
-//  ContentView.swift
-//  MyTextInputField
+//  TextInputField.swift
+//
 //
 //  Created by Nhat Le on 23/8/24.
 //
