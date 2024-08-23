@@ -17,7 +17,7 @@ TextInputField(
  "Email address",
  text: $email,
  isValid: $isEmailValid)
-  .isMandatory(true)
+  .isMandatory()
   .onValidate { value in
     value.isValidEmail ? .success(true) : .failure(.invalidEmail)
    }
