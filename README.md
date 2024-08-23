@@ -7,7 +7,7 @@ https://github.com/user-attachments/assets/bb30ea3d-fce3-423f-b5bf-c27a87d9e99d
 ## Add to your project by using SPM
 Use SPM to add the custom SwiftUI `TextField` to your project
 
-### The example code for the email input field
+## The example code for the email input field
 
 ```
 // On top of your UI file 
