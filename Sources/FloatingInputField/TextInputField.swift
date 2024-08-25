@@ -73,7 +73,7 @@ public struct TextInputField: View {
     
     private var clearButton: some View {
         HStack {
-            if !clearButtonHidden {
+            if !clearButtonHidden, !text.isEmpty {
                 Spacer()
                 Button(action: {text = ""}) {
                     Image(systemName: "multiply.circle.fill")
